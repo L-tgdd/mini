@@ -1,0 +1,7 @@
+import time
+slp = "Hello,World!"
+# print(slp[3:])
+for i in slp:
+    time.sleep(0.7)
+    print(i, end='')
+print("\n优雅~永不过时！")
